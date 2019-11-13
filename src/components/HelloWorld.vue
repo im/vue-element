@@ -85,14 +85,16 @@
 
 <script>
 import axios from 'axios'
+import api from 'api'
+import http from 'http'
 export default {
     name: 'HelloWorld',
     props: {
         msg: String
     },
     created () {
-        axios.post('hotel/hotel/city/cityAll').then(res => {
-
+        http.post(api.cityAll).then(res => {
+            console.log('res: ', res);
         })
     }
 }
