@@ -8,6 +8,7 @@
   </div>
 </template>
 
+<style lang="stylus" src="./style/app.styl"></style>
 <style lang="stylus">
 #app
   font-family 'Avenir', Helvetica, Arial, sans-serif
